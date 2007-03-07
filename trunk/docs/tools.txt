@@ -1,0 +1,11 @@
+SVN Client
+http://tortoisesvn.net/downloads
+
+Toad Data Modeler Freeware
+http://www.casestudio.net/download/TDM_freeware_setup.zip
+
+JUDE UML 
+https://jude.change-vision.com/jude-web/download/index.html
+
+Netbeans 5.5
+http://www.netbeans.info/downloads/index.php
