@@ -1,0 +1,2 @@
+1. Desenvolver o diagrama UML de casos de uso (DENIS)
+2. Realizar a modelagem do banco de dados (DIEGO)
