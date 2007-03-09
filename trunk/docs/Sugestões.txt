@@ -1,0 +1,13 @@
+Assunto: MER
+==================================
+1. Uma boa prática seria definir todas as chaves primárias como do tipo "numérico" e "auto-incrementado" ao invés de ser um campo do tipo "char"
+
+2. Transformar os campos "QuestaoEnquete" e "TxtAlternativa" para o tipo "varchar" de tamanho 255.
+Obs.: Um tamanho de 50 caracteres era muito pouco e o tipo "char" sempre ocupará o seu tamanho máximo mesmo que o valor a ser armazenado seja menor, já os campos do tipo "varchar" são variáveis. Ex:
+	char(50) - armazena até 50 caracteres, mas se eu armazenar o texto "ABC", ainda assim estaremos ocupando 50 caracteres.
+	varchar(50) - armazena até 50 caracteres, mas no exemplo anterior o registro estaria ocupando 3 caracteres.
+
+3. Transformar o campo "StatusEnquete" em char(1) para economia, já que basta 1 byte para representar o status. 
+Ex.: 0  off-line
+     1  on-line	
+     2  encerrada	
