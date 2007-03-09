@@ -1,5 +1,5 @@
 1. Desenvolver o diagrama UML de casos de uso (DENIS)
 2. Realizar a modelagem do banco de dados (DIEGO)
-3. Gerar o script para criação das tabelas no MySQL 5 e commitar no SVN. Obs: As tabelas a serem criadas deverão estar dentro do database chamado: jenquete  (DIEGO)
+3. Gerar o script para criação das tabelas no MySQL 5 e commitar no SVN. Obs: As tabelas a serem criadas deverão estar dentro do database chamado: jenquete  (DIEGO) ok 23:58 8/3/2007
 4. Executar o script no MySQL (DIEGO / DENIS)
-5. Criar scripts que insiram 3 enquetes fictícias. Uma enquete para cada status e commitar no SVN. (DIEGO)
+5. Criar scripts que insiram 3 enquetes fictícias. Uma enquete para cada status e commitar no SVN. (DIEGO)- ok 23:58 8/3/2007
