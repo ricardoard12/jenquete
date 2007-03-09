@@ -1,3 +1,17 @@
+Denis,
+Obrigado pelas dicas.... tem uma coisa que eu não conseguir fazer que foi deixar o relacionamento 1 para n // tentei de diversas forma, porem ao editar o relacionamento o campo da cardinalidade está com n desativado não sendo possível alterar
+
+
+
+
+
+
+
+
+
+
+
+
 Assunto: MER
 ==================================
 1. Uma boa prática seria definir todas as chaves primárias como do tipo "numérico" e "auto-incrementado" ao invés de ser um campo do tipo "char"
