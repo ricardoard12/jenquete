@@ -4,7 +4,7 @@ use jenquete;
 
 Create table Enquetes (
 	CodEnquete Int NOT NULL AUTO_INCREMENT,
-	QuestaoEnquete Text,
+	QuestaoEnquete varchar(255),
 	StatusEnquete Char(1),
 	DataCriacao Datetime,
  Primary Key (CodEnquete)) ENGINE = MyISAM;
