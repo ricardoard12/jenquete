@@ -9,7 +9,9 @@
 
 package br.com.jenquete.model;
 
+import br.com.jenquete.dto.AlternativaDTO;
 import br.com.jenquete.dto.EnqueteDTO;
+import br.com.jenquete.exception.JEnqueteException;
 import java.util.List;
 
 /**
@@ -22,19 +24,33 @@ public class EnqueteModelJDBCImpl implements EnqueteModel {
     public EnqueteModelJDBCImpl() {
     }
 
-    public List<EnqueteDTO> listarEnquetesAtivas() {
+    public List<EnqueteDTO> listarEnquetesAtivas() throws JEnqueteException {
     }
 
-    public List<EnqueteDTO> listarEnquetesEncerradas() {
+    public List<EnqueteDTO> listarEnquetesEncerradas() throws JEnqueteException {
     }
 
-    public List<EnqueteDTO> listarEnquetes() {
+    public List<EnqueteDTO> listarEnquetes() throws JEnqueteException {
     }
 
-    public EnqueteDTO getEnquete(int codigoEnquete) {
+    public EnqueteDTO getEnquete(int codigoEnquete) throws JEnqueteException {
     }
 
-    public void votar(int codigoAlternativa) {
+    public void votar(int codigoAlternativa) throws JEnqueteException {
     }
+
+    public void criarEnquete(EnqueteDTO enquete) throws JEnqueteException {
+    }
+
+    public void adicionarAlternativa(int codigoEnquete, AlternativaDTO alternativa) throws JEnqueteException {
+    }
+
+    public void ativarEnquete(int codigoEnquete) throws JEnqueteException {
+    }
+
+    public void encerrarEnquete(int codigoEnquete) throws JEnqueteException {
+    }
+
+
     
 }
