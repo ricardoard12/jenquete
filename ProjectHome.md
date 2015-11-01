@@ -1,0 +1,2 @@
+Aplicação Web desenvolvida em Java que possuirá duas áreas distintas. Uma administrativa que possibilitará o cadastro de novas enquetes, bem como a ativação e o encerramento da mesma.
+E uma área para o internauta em geral na qual será possível votar e visualizar o resultado da enquete.
